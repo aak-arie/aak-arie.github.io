@@ -5,11 +5,18 @@ email: aakarie18@gmail.com
 copyright_name: "Ario Blog"
 description: "Slow but sure!"
 baseurl: ""
+
+# github
 url: "https://aak-arie.github.io"
-twitter_username: SBootstrap
-github_username:  aak-arie
-facebook_username:  Arioo
-email_username:  aakarie18@gmail.com
+
+# localhost
+#url: "http://localhost:4000"
+
+# twitter_username: SBootstrap
+github_username: aak-arie
+facebook_username: Arioo
+ig_username: ariio77
+email_username: aakarie18@gmail.com
 
 # Google Analytics
 # To enable google analytics, uncomment below line with a valid Google Tracking ID
@@ -22,4 +29,4 @@ permalink: pretty
 paginate: 5
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
 
-gems: [jekyll-paginate, jekyll-feed]
+plugins: [jekyll-paginate, jekyll-feed]
